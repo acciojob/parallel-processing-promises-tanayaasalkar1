@@ -27,7 +27,7 @@ btn.addEventListener("click", () => {
   output.innerHTML = "";
   errorDiv.textContent = "";
 
-  loading.textContent = "Loading...";
+  
   loading.style.display = "block";
 
   const promises = images.map((image) => {
